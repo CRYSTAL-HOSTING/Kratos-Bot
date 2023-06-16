@@ -22,7 +22,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001216650755"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
-START_MSG = os.environ.get("START_MESSAGE", "<b>Hello {mention} 👋\n\n• Join Our Channel To Get Access To Files Through Links !\n\n🔰: @Crystal_Games\n🗨️: https://t.me/+xLspIoegS145NzU1</b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>Hello {mention} 👋\n\n• Join Our Channel To Get Access To Files Through Links !\n\n🔰: @Crystal_Games\n🗨️: @Crystal_Games_Discussion</b>")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -30,7 +30,7 @@ try:
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>🗣️ Kratos:\nHello {mention} 👋\nYou Need To Join Our Channel, So You Can Access My Links !\n\n🔰: @Crystal_Games\n🗨️: https://t.me/+xLspIoegS145NzU1</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>🗣️ Kratos:\nHello {mention} 👋\nYou Need To Join Our Channel, So You Can Access My Links !\n\n🔰: @Crystal_Games\n🗨️: @Crystal_Games_Discussion</b>")
 
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
@@ -42,7 +42,7 @@ else:
     DISABLE_CHANNEL_BUTTON = False
 
 BOT_STATS_TEXT = "🤖 <b>BOT UPTIME</b> 📊\n\n ⏳: {uptime}"
-USER_REPLY_TEXT = "🔔 <b>Telegram Notification</b>:\n\nKratos Is Going In a WAR, So He Can't Talk To You !\n\nYou Can Type /start For Help !\n\n🔰: @Crystal_Games\n🗨️: https://t.me/+xLspIoegS145NzU1\n\n👀: bit.ly/3NyZN5W"
+USER_REPLY_TEXT = "🔔 <b>Telegram Notification</b>:\n\nKratos Is Going In a War ⚔️, So He Can't Talk To You !\n\nYou Can Type /start For Help !\n\n🔰: @Crystal_Games\n🗨️: @Crystal_Games_Discussion\n\n👀: bit.ly/3NyZN5W"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
