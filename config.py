@@ -42,7 +42,7 @@ else:
     DISABLE_CHANNEL_BUTTON = False
 
 BOT_STATS_TEXT = "🤖 <b>BOT UPTIME</b> 📊\n\n ⏳: {uptime}"
-USER_REPLY_TEXT = "🔔 <b>Telegram Notification</b>:\n\nKageyama Is Busy With Body Improvement Club Activities, So He Can't Talk To You !\n\nYou Can Type /start For Help !\n\n🔰 @Crystal_Anime_Index\n🗨️ @Crystal_Anime_Discussion\n\n👀: bit.ly/3oE1k0W"
+USER_REPLY_TEXT = "🔔 <b>Telegram Notification</b>:\n\nKratos Is Going In a WAR, So He Can't Talk To You !\n\nYou Can Type /start For Help !\n\n🔰: @Crystal_Games\n🗨️: https://t.me/+xLspIoegS145NzU1\n\n👀: bit.ly/3NyZN5W"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
